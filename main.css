@@ -74,11 +74,12 @@ h1 {
 }
 
 .btn {
-    padding: 20px 40px;
+    padding: 15px 35px;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 5px;
     position: relative;
+    margin: 5px;
 }
 
 .btn-accent {
@@ -89,7 +90,6 @@ h1 {
 .btn-secondary {
     background: var(--foreground);
     color: var(--background);
-    margin-left: 30px;
 }
 
 .dark-mode-toggle {
