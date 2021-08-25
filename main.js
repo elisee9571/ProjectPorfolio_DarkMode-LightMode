@@ -21,7 +21,7 @@ const disableDarkMode = () => {
     localStorage.setItem('darkMode', null);
 }
 
-// If the user already visited and enabled darkMode else disable darkMode
+// If the user already visited enabled darkMode else disable darkMode
 if (darkMode === 'enabled') {
     enableDarkMode();
 } else {
